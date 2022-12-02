@@ -11,7 +11,7 @@ formButton.addEventListener("click", function(e){
     e.preventDefault();
 
     addLine();
-    increaseTable();
+    // increaseTable();
     calculateAverage();
     increaseTFoot();
 });
@@ -34,13 +34,15 @@ function addLine() {
     line += `<td>${inputActivityNote.value}</td>`
     line += `<td>${inputActivityNote.value >= minNote ? imgApproved : imgDisapproved}</td>`
     line += `</tr>`
+
+    let table = document.querySelector('tbody');
+    table.innerHTML += line;
     }
 }
 
-function increaseTable() {
-    let table = document.querySelector('tbody');
-    table.innerHTML += line;
-}
+// function increaseTable() {
+    
+// }
 
 function calculateAverage() {
     let sumGrades = 0;
