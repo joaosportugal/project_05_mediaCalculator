@@ -2,7 +2,7 @@
 
 Projeto feito no curso EBAC: Profissão Desenvolvedor Full Stack Python
 
-Status do Projeto: Correção de Bug (ao adicionar a mesma atividade acontece um alerta pedindo para adicionar outra atividade, porém ela é adicionada novamente)
+Status do Projeto: Finalizado
 
 Tecnologias Utilizadas: HTML, CSS e JavaScript
 
